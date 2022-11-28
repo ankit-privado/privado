@@ -7,7 +7,7 @@ sinks:
   - id: Storages.MongoDB.Read
     name: MongoDB(Read)
     domains:
-      - mongodb.com
+      - mongo.com
     patterns: 
       - "(?i)(com[.]mongodb[.](client[.]MongoCollection|DBCollection)[.]((find|findOne|findMany|distinct|aggregate)[:].*))"
 
